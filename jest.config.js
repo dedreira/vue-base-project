@@ -13,7 +13,7 @@ module.exports = {
     '^.+\\.tsx?$': 'ts-jest'
   },
   transformIgnorePatterns: [
-    '/node_modules/'
+    '/node_modules/vuelidate-property-decorators/'
   ],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
@@ -33,7 +33,7 @@ module.exports = {
     'ts-jest': {
       babelConfig: true
     }
-  },    
+  },
   collectCoverage: true,
   reporters: [
     "default",
