@@ -1,4 +1,9 @@
 module.exports = {
+  moduleDirectories: [
+    "src",
+    "tests/mocks",
+    "node_modules"
+  ],
   moduleFileExtensions: [
     'js',
     'jsx',

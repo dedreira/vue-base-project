@@ -3,7 +3,7 @@ import { resetContainer, mockSingleton } from 'inversify-props';
 import { Vue } from "vue-property-decorator";
 import VueMaterial from "vue-material";
 import { mount, shallowMount } from '@vue/test-utils';
-import Echo from '@/components/echo/Echo';
+import Echo from '@/components/echo/Echo.vue';
 import Vuelidate from 'vuelidate';
 describe("Echo component should", () => {
   beforeEach(() => {
